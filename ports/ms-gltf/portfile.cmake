@@ -4,9 +4,9 @@ endif()
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO microsoft/glTF-SDK
-    REF eaccf166e2718c6133db426545b6d008cb7ad79f # 28-06-2022
-    SHA512 112e31d2f42d2fb22060a687f7d33f22e677d8d7eca006eb8c1edef6a61b8bad637df15492665656ea88a5a0b980851eb978a180b4a01d307d1bbc92f63500f1
+    REPO Virtonomy/glTF-SDK
+    REF eacf331a5ae6eb615f5a8ff55472d94242b719c9 # 20-03-2022
+    SHA512 34823a9f01dd9320fe1c18ddd464bd612a010fdfab5cefae723739f8295d4f6d36a9c8b13c9011e0a42cec9f4dfd528b322d23ac521913e5475c39435e829fdc
     HEAD_REF master
     PATCHES
         fix-install.patch
