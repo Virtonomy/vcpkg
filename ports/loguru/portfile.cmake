@@ -12,8 +12,8 @@ vcpkg_from_github(
 vcpkg_check_features(
     OUT_FEATURE_OPTIONS FEATURE_OPTIONS
     FEATURES
-        fmt BUILD_WITH_FMT
-        stream BUILD_WITH_STREAM_SUPPORT
+        fmt LOGURU_USE_FMTLIB
+        stream LOGURU_WITH_STREAMS
 )
 
 vcpkg_cmake_configure(
